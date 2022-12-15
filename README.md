@@ -16,8 +16,8 @@ NOTE: Following notebooks for building autoencoder and generating novel molecule
 ### Step 1: Store data 
 ______
 Store the following files in a folder in google drive 
-a. Create a folder in google drive named "next_gen_data" 
-b. Copy the following files from the folder next_gen_data in git repo to the google drive
+a. Create a folder in google drive named "next_gen_data"   
+b. Copy the following files from the folder next_gen_data in git repo to the google drive   
 
 **Files:**
 1. **char_to_int.json**: mapping of smiles character to int
@@ -33,7 +33,7 @@ Files which are generated using python notebook:
 ____________
 Run LSTM_Base.ipynb
 
-Notebook performs following main tasks:
+Notebook performs following main tasks:   
 1. Prepare dataset for training.
 2. Define autoencoder
 3. Train autoencoder
