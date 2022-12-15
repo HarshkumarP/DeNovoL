@@ -31,7 +31,7 @@ b. Copy the following files from the folder next_gen_data in git to the google d
 
  
 ### Step 2: Build autoencoder
-
+____________
 Run LSTM_Base.ipynb
 
 Notebook perform following main tasks:
@@ -43,7 +43,7 @@ Required input: char_to_int.json, int_to_char.json and moses.smi
 Output: LSTM_model.h5(trained autoencoder), test.npy(test set after train/test split)
 
 ### Step 3: Generate novel molecules 
-
+____________
 Run DeNovo_mol_gen.ipynb
 
 Notebook perform following main tasks:
@@ -54,6 +54,6 @@ Notebook perform following main tasks:
 Required input: LSTM_model.h5(autoencoder build from step 2), test.npy(test set split from step 2), char_to_int.json, int_to_char.json
 Output:  gen_model.h5(genrative model), generated_smiles.csv (sampled denovo molecule)
 
-
+______________
 #### Few sampled molecules from DeNovoL
 ![image](https://user-images.githubusercontent.com/82495070/207969079-81812325-d471-4bbb-a963-ed5b919d2df1.png)
