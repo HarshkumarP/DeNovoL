@@ -39,7 +39,7 @@ Notebook performs following main tasks:
 2. Define autoencoder
 3. Train autoencoder
 
-Required input: char_to_int.json, int_to_char.json and moses.smi 
+Required input: char_to_int.json, int_to_char.json and moses.smi   
 Output: LSTM_model.h5(trained autoencoder), test.npy(test set after train/test split)
 
 ### Step 3: Generate novel molecules 
@@ -51,7 +51,7 @@ Notebook performs following main tasks:
 2. Experiment mol gen with different softmax temprature
 3. Generate molecules from the latent space
 
-Required input: LSTM_model.h5(autoencoder build from step 2), test.npy(test set split from step 2), char_to_int.json, int_to_char.json
+Required input: LSTM_model.h5(autoencoder build from step 2), test.npy(test set split from step 2), char_to_int.json, int_to_char.json   
 Output:  gen_model.h5(genrative model), generated_smiles.csv (sampled denovo molecule)
 
 ______________
