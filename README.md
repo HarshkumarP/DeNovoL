@@ -34,7 +34,7 @@ b. Copy the following files from the folder next_gen_data in git to the google d
 ____________
 Run LSTM_Base.ipynb
 
-Notebook perform following main tasks:
+Notebook performs following main tasks:
 1. Prepare dataset for training.
 2. Define autoencoder
 3. Train autoencoder
@@ -46,9 +46,9 @@ Output: LSTM_model.h5(trained autoencoder), test.npy(test set after train/test s
 ____________
 Run DeNovo_mol_gen.ipynb
 
-Notebook perform following main tasks:
+Notebook performs following main tasks:
 1. Create standalone encoder, decoder (decomposition of autoencoder)
-2. Experiment mol gen with diffrent softmax temprature
+2. Experiment mol gen with different softmax temprature
 3. Generate molecules from the latent space
 
 Required input: LSTM_model.h5(autoencoder build from step 2), test.npy(test set split from step 2), char_to_int.json, int_to_char.json
@@ -57,3 +57,4 @@ Output:  gen_model.h5(genrative model), generated_smiles.csv (sampled denovo mol
 ______________
 #### Few sampled molecules from DeNovoL
 ![image](https://user-images.githubusercontent.com/82495070/207969079-81812325-d471-4bbb-a963-ed5b919d2df1.png)
+
