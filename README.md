@@ -14,7 +14,7 @@ NOTE: Following notebooks for building autoencoder and generating novel molecule
 ## Running code
 
 ### Step 1: Store data 
-----
+______
 Store the following files in a folder in google drive 
 a. Create a folder in google drive named "next_gen_data" 
 b. Copy the following files from the folder next_gen_data in git to the google drive
